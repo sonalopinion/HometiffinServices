@@ -1,0 +1,6 @@
+1. Start the backend first (see backend/README.md) -> http://localhost:5000
+2. In your Next.js project root (HomeMadeFood):
+     - delete the old  src  folder (keep a backup copy) and put this  src  folder in its place
+     - create a file named  .env.local  with:   NEXT_PUBLIC_API_URL=http://localhost:5000
+     - run:  npm run dev   (restart it if it was already running)
+3. axios is no longer used (you can leave it installed). react-icons and tailwind are still needed.
